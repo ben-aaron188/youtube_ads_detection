@@ -29,6 +29,7 @@ def create_transcript_url(link):
 
 def write(filename, data):
     filename += ".csv"
+    failure_count = 0
 
     with open(filename, 'w') as csvfile:
         fieldnames = ['content', 'start', 'duration']
@@ -38,6 +39,11 @@ def write(filename, data):
         if len(data) > 0:
             for row in data:
                 writer.writerow({'content': row[0], 'start': row[1], 'duration': row[2]})
+        else:
+            failure_count += 1
+
+    return(failure_count)
+
 
 # ================================================================================================
 
@@ -46,6 +52,8 @@ main_url = ['https://www.youtube.com/api/timedtext?&v=BPMUz1l8rpA&lang=en',
 ]
 
 for url in main_url:
+    failure_count = 0
+
     id = get_youtube_id(url)
     req = requests.get(url)
     soup = BeautifulSoup(req.content, 'html5lib')
@@ -61,4 +69,6 @@ for url in main_url:
         if text_tag_content != "":
             data.append([text_tag_content, text_tag_t_start, text_tag_t_dur])
 
-    write(id, data)
+    failure_count += write(id, data)
+
+print("Successful: " + str(len(main_url) - failure_count) + "; Failed: " + str(failure_count))
