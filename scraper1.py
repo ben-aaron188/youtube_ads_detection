@@ -1,5 +1,8 @@
 # load dependencies
 from __future__ import division
+from selenium import webdriver
+
+import time
 import requests
 import sys
 import os
@@ -44,12 +47,20 @@ def write(filename, data):
 
     return(failure_count)
 
+# ============================== AUTOMATIC CAPTIONS ========================================================
+driver = webdriver.Firefox(executable_path='/users/maximilianmozes/Downloads/geckodriver')
+driver.get('https://www.youtube.com/watch?v=wOn8xawC-HQ')
 
-# ================================================================================================
+element = driver.find_element_by_xpath("//button[contains(@class, 'yt-uix-button')]") ;
+element.click()
 
-main_url = ['https://www.youtube.com/api/timedtext?&v=BPMUz1l8rpA&lang=en',
-            'https://www.youtube.com/watch?v=9_VKSDTdHOg'
-]
+time.sleep(5)
+
+element = driver.find_element_by_xpath("//button[contains(@class, 'yt-uix-menu-close-on-select')]") ;
+element.click()
+# ==========================================================================================================
+
+main_url = ['https://www.youtube.com/watch?v=wOn8xawC-HQ']
 
 for url in main_url:
     failure_count = 0
