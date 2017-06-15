@@ -1,6 +1,8 @@
 # load dependencies
 from __future__ import division
 from selenium import webdriver
+from selenium.webdriver.common.action_chains import ActionChains
+
 
 import time
 import requests
@@ -51,13 +53,24 @@ def write(filename, data):
 driver = webdriver.Firefox(executable_path='/users/maximilianmozes/Downloads/geckodriver')
 driver.get('https://www.youtube.com/watch?v=wOn8xawC-HQ')
 
-element = driver.find_element_by_xpath("//button[contains(@class, 'yt-uix-button')]") ;
+# this seems to work fine
+element = driver.find_element_by_xpath("//button[contains(@class, 'yt-uix-button')]")
 element.click()
 
 time.sleep(5)
 
-element = driver.find_element_by_xpath("//button[contains(@class, 'yt-uix-menu-close-on-select')]") ;
+# Here is the problem (selenium.common.exceptions.ElementNotInteractableException)
+element = driver.find_element_by_xpath("//button[contains(@class, 'yt-uix-menu-close-on-select')]")
 element.click()
+
+# Here we should add another timeout in order to wait for the transcript to show up
+
+# Here we can use the code as below to get the transcript
+
+# Afterwards we could add the retrieval of metadata (view, thumbs up, down etc.)
+
+
+
 # ==========================================================================================================
 
 main_url = ['https://www.youtube.com/watch?v=wOn8xawC-HQ']

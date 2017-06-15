@@ -1150,3 +1150,249 @@ See /usr/include/servers/bootstrap_defs.h for the error codes.
 IOVARendererID property not found 
 JavaScript error: https://www.youtube.com/yts/jsbin/player-vflQZSd3x/en_US/base.js, line 363: NS_ERROR_NOT_INITIALIZED: 
 [Child 9634] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+2017-06-15 14:30:22.879 plugin-container[9955:3237500] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8f3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-15 14:30:22.880 plugin-container[9955:3237500] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x501b, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-15 14:30:22.880 plugin-container[9955:3237500] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1497543187685	geckodriver	INFO	Listening on 127.0.0.1:49611
+1497543188868	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1497543192067	Marionette	INFO	Listening on port 49620
+1497543192152	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-06-15 18:13:12.692 plugin-container[645:35622] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x903f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-15 18:13:12.697 plugin-container[645:35622] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x531f, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-15 18:13:12.697 plugin-container[645:35622] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 69: Error: WebGL warning: validateProgram: Implemented as a no-op on Mac to work around crashes.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 69: Error: WebGL warning: validateProgram: Implemented as a no-op on Mac to work around crashes.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to initialize texture data.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to resolve textures for draw.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to initialize texture data.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to resolve textures for draw.
+IOVARendererID property not found 
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to initialize texture data.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to resolve textures for draw.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to initialize texture data.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to resolve textures for draw.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to initialize texture data.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to resolve textures for draw.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL: No further warnings will be reported for this WebGL context. (already reported 32 warnings)
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 69: Error: WebGL warning: validateProgram: Implemented as a no-op on Mac to work around crashes.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to initialize texture data.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to resolve textures for draw.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to initialize texture data.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to resolve textures for draw.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to initialize texture data.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to resolve textures for draw.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL: No further warnings will be reported for this WebGL context. (already reported 32 warnings)
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+2017-06-15 18:37:27.812 plugin-container[702:199504] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8e3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-15 18:37:27.813 plugin-container[702:199504] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x4a1b, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-15 18:37:27.813 plugin-container[702:199504] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+JavaScript error: https://www.bbc.co.uk/music/artists/8d71ac51-8774-4889-a163-eecc0ea27fb3, line 97: TypeError: googletag.display is not a function
+JavaScript error: http://uconnruddcenter.org/js/page-scripts.js, line 207: TypeError: $(...).fancybox is not a function
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1497546310191	geckodriver	INFO	Listening on 127.0.0.1:50719
+1497546311368	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1497546314804	Marionette	INFO	Listening on port 50728
+1497546314950	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-06-15 19:05:15.617 plugin-container[780:349563] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8f3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-15 19:05:15.617 plugin-container[780:349563] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x531f, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-15 19:05:15.617 plugin-container[780:349563] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 69: Error: WebGL warning: validateProgram: Implemented as a no-op on Mac to work around crashes.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 69: Error: WebGL warning: validateProgram: Implemented as a no-op on Mac to work around crashes.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to initialize texture data.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to resolve textures for draw.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to initialize texture data.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to resolve textures for draw.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to initialize texture data.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to resolve textures for draw.
+IOVARendererID property not found 
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to initialize texture data.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to resolve textures for draw.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to initialize texture data.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to resolve textures for draw.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to initialize texture data.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to resolve textures for draw.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to initialize texture data.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to resolve textures for draw.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to initialize texture data.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to resolve textures for draw.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to initialize texture data.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to resolve textures for draw.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to initialize texture data.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to resolve textures for draw.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL: No further warnings will be reported for this WebGL context. (already reported 32 warnings)
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 69: Error: WebGL warning: validateProgram: Implemented as a no-op on Mac to work around crashes.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to initialize texture data.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to resolve textures for draw.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to initialize texture data.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: drawArrays: Failed to resolve textures for draw.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL warning: texImage2D: Failed to hit GPU-copy fast-path. Falling back to CPU upload.
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-vflLxaaub/en_US/webgl.js, line 118: Error: WebGL: No further warnings will be reported for this WebGL context. (already reported 32 warnings)
+1497546654584	geckodriver	INFO	Listening on 127.0.0.1:50957
+1497546655767	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1497546661127	Marionette	INFO	Listening on port 50966
+1497546661331	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-06-15 19:11:02.809 plugin-container[797:392809] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x922b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-15 19:11:02.811 plugin-container[797:392809] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x940b, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-15 19:11:02.811 plugin-container[797:392809] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+IOVARendererID property not found 
+1497546754507	geckodriver	INFO	Listening on 127.0.0.1:51183
+1497546754614	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1497546758338	Marionette	INFO	Listening on port 51190
+1497546758478	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-06-15 19:12:39.551 plugin-container[807:405592] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8f3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-15 19:12:39.553 plugin-container[807:405592] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x5307, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-15 19:12:39.553 plugin-container[807:405592] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A0001,name=PCrashReporter::Msg_AnnotateCrashReport) Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=2.49944) 
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400C6,name=PContent::Msg_GraphicsError) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1497546875615	geckodriver	INFO	Listening on 127.0.0.1:51311
+1497546876771	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1497546880090	Marionette	INFO	Listening on port 51320
+1497546880225	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-06-15 19:14:41.186 plugin-container[814:424064] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9033, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-15 19:14:41.187 plugin-container[814:424064] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9123, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-15 19:14:41.187 plugin-container[814:424064] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+IOVARendererID property not found 
+1497546909001	geckodriver	INFO	Listening on 127.0.0.1:51435
+1497546909152	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1497546913650	Marionette	INFO	Listening on port 51439
+1497546913807	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-06-15 19:15:14.999 plugin-container[822:426856] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8e3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-15 19:15:15.000 plugin-container[822:426856] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x4f2b, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-15 19:15:15.000 plugin-container[822:426856] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+IOVARendererID property not found 
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1497547042992	geckodriver	INFO	Listening on 127.0.0.1:51638
+1497547044649	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1497547054310	Marionette	INFO	Listening on port 51647
+1497547054458	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-06-15 19:17:35.132 plugin-container[848:445564] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8f3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-15 19:17:35.133 plugin-container[848:445564] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x501f, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-15 19:17:35.133 plugin-container[848:445564] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+IOVARendererID property not found 
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 848] WARNING: pipe error: Socket is not connected: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 848] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 848] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 848] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 848] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 848] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 848] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
