@@ -89,7 +89,7 @@ for url in main_url:
 #print("Successful: " + str(len(main_url) - failure_count) + "; Failed: " + str(failure_count))
 
 
-############################BUGGY!!!!!!!!!!!!!!!!!!!!!!
+#################################################
 #######NEW FLOW
 from __future__ import division
 from selenium import webdriver
@@ -113,6 +113,56 @@ phantom_driver = webdriver.PhantomJS(executable_path="./phantomjs-2.1.1-macosx/b
 
 phantom_driver.get(url)
 
+print(len(phantom_driver.page_source))
+
+#from SO https://stackoverflow.com/questions/44657787/clicking-on-dynamically-loaded-menu-with-python-phantomjs/44761388#44761388
+
+#click on "more"
+phantom_driver.find_element_by_xpath('//*[@id="action-panel-overflow-button"]').click()
+
+print(len(phantom_driver.page_source))
+
+#click on "transcript" in the opened menu
+phantom_driver.find_element_by_xpath('//*[@class="yt-ui-menu-item has-icon yt-uix-menu-close-on-select action-panel-trigger action-panel-trigger-transcript"]').click()
+
+print(len(phantom_driver.page_source))
+
+
+#click on "English (automatic captions)"
+#Dynamic id?
+phantom_driver.find_element_by_xpath('//*[@id="kbd-nav-179867"]').click()
+
+print(len(phantom_driver.page_source))
+
+#click on the dropdown choice
+phantom_driver.find_element_by_xpath('//*[@id="yt-ui-menu-item yt-uix-menu-close-on-select yt-uix-button-menu-item"]').click()
+
+print(len(phantom_driver.page_source))
+
+#get the new DOM
+html = phantom_driver.find_element_by_tag_name('html').get_attribute('innerHTML')
+
+print('transcript-scrollbox' in html)
+
+soup = BeautifulSoup(html, "html5lib")
+
+transcript_div = soup.find_all('div', {'id': 'transcript-scrollbox'})
+
+subs_divs = transcript_div.find('div')
+
+
+#################################################
+
+
+
+
+
+
+
+
+
+
+
 # print(phantom_driver.page_source)
 #
 # print("yt-uix-button" in phantom_driver.page_source)
@@ -121,9 +171,6 @@ phantom_driver.get(url)
 phantom_driver.find_element_by_id('action-panel-overflow-button').click()
 
 #? do we need to get the DOM again after the click?
-html = phantom_driver.find_element_by_tag_name('html').get_attribute('innerHTML')
-
-print('good news bad news good news good news' in html)
 
 #try to click on dynamic drop down
 dyn_drop_down = phantom_driver.find_element_by_id('action-panel-overflow-button').click()
