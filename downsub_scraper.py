@@ -22,11 +22,11 @@ def download_transcript(url, title):
 
     download_link = ("http://downsub.com" + target_link[(start+2):end]).replace("amp;", "", 1)
 
-    r = requests.get(download_link, stream=True)
-    if r.status_code == 200:
+    req = requests.get(download_link, stream=True)
+    if req.status_code == 200:
         with open(title + ".txt", 'wb') as f:
-            r.raw.decode_content = True
-            shutil.copyfileobj(r.raw, f)
+            req.raw.decode_content = True
+            shutil.copyfileobj(req.raw, f)
 
 
 # ======================== Main ========================
