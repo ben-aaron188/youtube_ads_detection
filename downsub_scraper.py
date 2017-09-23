@@ -22,6 +22,7 @@ def download_transcript(url, title):
 
     download_link = ("http://downsub.com" + target_link[(start+2):end]).replace("amp;", "", 1)
 
+    # Solution derived from https://stackoverflow.com/a/34695096
     req = requests.get(download_link, stream=True)
     if req.status_code == 200:
         with open(title + ".txt", 'wb') as f:
