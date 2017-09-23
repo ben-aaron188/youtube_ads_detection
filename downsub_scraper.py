@@ -33,9 +33,9 @@ def download_transcript(url, title):
 # Each element is a tuple of (url, title)
 # Example
 data = [
-    ["https://www.youtube.com/results?search_query=cat+fail+glass+door", "1"],
-    ["https://www.youtube.com/watch?v=2y7rk7eHHAM", "2"],
-    ["https://www.youtube.com/watch?v=g_PtkN3aYFo", "3"]
+    ["https://www.youtube.com/results?search_query=cat+fail+glass+door", "4"],
+    ["https://www.youtube.com/watch?v=2y7rk7eHHAM", "5"],
+    ["https://www.youtube.com/watch?v=g_PtkN3aYFo", "6"]
 ]
 
 for element in data:
