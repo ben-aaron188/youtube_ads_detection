@@ -1,7 +1,16 @@
 import urllib.parse
+import re, csv
 from urllib.request import Request, urlopen, urlretrieve
 from bs4 import BeautifulSoup as bs, SoupStrainer
 import wget, os, sys, httplib2, requests, shutil, time
+
+
+# Source: https://stackoverflow.com/a/5251383
+def slugify(value):
+    filename = re.sub(r'[/\\:*?"<>|]', '', value)
+
+    return filename
+
 
 # Download transcript given a url and a title.
 def download_transcript(url, title):
@@ -24,8 +33,9 @@ def download_transcript(url, title):
 
     # Solution derived from https://stackoverflow.com/a/34695096
     req = requests.get(download_link, stream=True)
+
     if req.status_code == 200:
-        with open(title + ".txt", 'wb') as f:
+        with open("output_dir/" + slugify(title) + ".txt", 'wb') as f:
             req.raw.decode_content = True
             shutil.copyfileobj(req.raw, f)
 
@@ -33,14 +43,21 @@ def download_transcript(url, title):
 # ======================== Main ========================
 # Each element is a tuple of (url, title)
 # Example
-data = [
-    ["https://www.youtube.com/results?search_query=cat+fail+glass+door", "4"],
-    ["https://www.youtube.com/watch?v=2y7rk7eHHAM", "5"],
-    ["https://www.youtube.com/watch?v=g_PtkN3aYFo", "6"]
-]
+# data = [
+#     ["https://www.youtube.com/results?search_query=cat+fail+glass+door", "4"],
+#     ["https://www.youtube.com/watch?v=2y7rk7eHHAM", "5"],
+#     ["https://www.youtube.com/watch?v=g_PtkN3aYFo", "6"]
+# ]
 
-for element in data:
-    try:
-        download_transcript(element[0], element[1])
-    except:
-        print("Video " + element[1] + " not supported.")
+header = False
+with open('youtube_data.csv', 'r') as f:
+    reader = csv.reader(f)
+
+    for element in reader:
+        if header == False:
+            header = True
+        else:
+            try:
+                download_transcript(element[0], element[1])
+            except:
+                print("Video " + element[1] + " not supported.")
