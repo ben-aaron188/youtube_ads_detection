@@ -2,7 +2,7 @@
 ### Creates a dataframe with raw texts from directory
 ### Usable in spacy_ner_r pipeline
 ###############################################################################
-
+require(stringr)
 txt_df_from_dir = function(dirpath){
   currentwd = getwd()
   setwd(dirpath)
