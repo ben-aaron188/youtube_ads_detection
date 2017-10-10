@@ -13,7 +13,7 @@ def slugify(value):
 
 
 # Download transcript given a url and a title.
-def download_transcript(url, title):
+def download_transcript(url, title, ad):
     orig = "http://downsub.com/?url="
     encode = urllib.parse.quote(url, safe='')
     target_url = orig + encode
@@ -35,29 +35,26 @@ def download_transcript(url, title):
     req = requests.get(download_link, stream=True)
 
     if req.status_code == 200:
-        with open("output_dir/" + slugify(title) + ".txt", 'wb') as f:
+        with open("output_dir/" + ad.lower() + "_" + slugify(title) + ".txt", 'wb') as f:
             req.raw.decode_content = True
             shutil.copyfileobj(req.raw, f)
 
 
 # ======================== Main ========================
-# Each element is a tuple of (url, title)
-# Example
-# data = [
-#     ["https://www.youtube.com/results?search_query=cat+fail+glass+door", "4"],
-#     ["https://www.youtube.com/watch?v=2y7rk7eHHAM", "5"],
-#     ["https://www.youtube.com/watch?v=g_PtkN3aYFo", "6"]
-# ]
-
 header = False
 with open('youtube_data.csv', 'r') as f:
     reader = csv.reader(f)
+
+    length = 400
+    count = 0
 
     for element in reader:
         if header == False:
             header = True
         else:
             try:
-                download_transcript(element[0], element[1])
+                count += 1
+                download_transcript(element[0], element[1], element[3])
+                print("Now at " + str(count) + " of " + str(length))
             except:
                 print("Video " + element[1] + " not supported.")
