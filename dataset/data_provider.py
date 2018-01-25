@@ -2,8 +2,10 @@ import os, csv, sys
 
 class Dataprovider:
 
+
     def __init__(self):
         self.collect_data()
+
 
     def get_filename_to_index_mapping(self):
         mapping = {}
@@ -123,18 +125,17 @@ class Dataprovider:
         self._vocab_size = len(self._vocab)
 
 
-    def write_content_to_file():
-        pos = open("processed_data/pos_sequences.txt","w")
-        neg = open("processed_data/neg_sequences.txt","w")
+    def write_content_to_file(self):
 
-        for elem in self._i_to_content_pos:
-            pos.writelines(elem)
+        for key, value in self._i_to_content_pos.items():
+            pos = open("separated/pos/" + key + ".txt","w")
+            pos.writelines(value)
+            pos.close()
 
-        for elem in self._i_to_content_neg:
-            neg.writelines(elem)
-
-        pos.close()
-        neg.close()
+        for key, value in self._i_to_content_neg.items():
+            neg = open("separated/neg/" + key + ".txt","w")
+            neg.writelines(value)
+            neg.close()
 
 
     @property
