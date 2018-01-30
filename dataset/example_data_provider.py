@@ -16,4 +16,13 @@ if numpos + numneg == numall:
     print("approved")
 
 
+# class_dict = data_provider.i_to_pol
+# csv = open('class_dict.csv', "w")
+# for key in class_dict.keys():
+# 	text_id = key
+# 	label = class_dict[key]
+#     row = str(text_id) + "," + str(label) + "\n"
+#     csv.write(row)
+# csv.close()
+
 #data_provider.write_content_to_file()
