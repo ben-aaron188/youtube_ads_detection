@@ -1,0 +1,1 @@
+to get tests that kind of self diagnose
