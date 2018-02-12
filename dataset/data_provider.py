@@ -23,9 +23,9 @@ class Dataprovider:
     def get_parsed(self):
         captions = {}
 
-        for filename in os.listdir("parsed_captions"):
+        for filename in os.listdir("parsed_captions/files"):
                 if filename != ".DS_Store" and filename != 'raw_titles':
-                    with open("parsed_captions/" + filename) as f:
+                    with open("parsed_captions/files/" + filename) as f:
                         captions[filename.replace(".txt", "")] = f.readlines()
 
         return captions
@@ -127,15 +127,19 @@ class Dataprovider:
 
     def write_content_to_file(self):
 
+        pos = open("annotated_pos_neg_sequences/pos.txt","w")
         for key, value in self._i_to_content_pos.items():
-            pos = open("separated/pos/" + key + ".txt","w")
-            pos.writelines(value)
-            pos.close()
+            for elem in value:
+                pos.writelines(elem)
 
+        pos.close()
+
+        neg = open("annotated_pos_neg_sequences/neg.txt","w")
         for key, value in self._i_to_content_neg.items():
-            neg = open("separated/neg/" + key + ".txt","w")
-            neg.writelines(value)
-            neg.close()
+            for elem in value:
+                neg.writelines(elem)
+
+        neg.close()
 
 
     @property

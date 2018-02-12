@@ -16,4 +16,5 @@ if numpos + numneg == numall:
     print("approved")
 
 
-#data_provider.write_content_to_file()
+data_provider.write_content_to_file()
+print("Completed")
